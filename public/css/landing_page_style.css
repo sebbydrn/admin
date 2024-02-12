@@ -1,0 +1,989 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#contact_header {
+	height: 45px;
+	background-color: #f1f5f8;
+}
+
+#contact_header_contents {
+	margin-top: 13px; 
+	margin-bottom: 13px;
+	margin-left: 250px;
+	margin-right: 250px;
+	font-size: 13px;
+	color: #246e48;
+}
+
+.contact_header_item {
+	margin-right: 10px; 
+	display: inline-block;
+}
+
+.item_right {
+	margin-right: 3px;
+}
+
+.contact_header_item img {
+	height: 20px; 
+	margin-top: -5px;
+}
+
+.contact_icon_background {
+	background-color: white;
+	border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.contact_icon_background:hover {
+	background-color: #246e48;
+}
+
+.contact_header_item .fab {
+	color: #246e48;
+	margin-top: 10px; 
+}
+
+.contact_icon_background:hover .fab {
+	color: white;
+}
+
+.navbar {
+	background-color: white !important;
+	margin-left: 250px;
+	margin-right: 250px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.navbar-brand {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.navbar_logo {
+	height: 120px;
+}
+
+.navbar-collapse {
+	margin-top: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #246e48;
+	transition: 0.3s
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+	color: #246e48;
+	border-bottom: 5px solid;
+	border-color: #246e48;
+	padding-bottom: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	border-bottom: 5px solid;
+	border-color: #246e48;
+	padding-bottom: 0;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #246e48;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:focus {
+	border-bottom: 5px solid;
+	border-color: #246e48;
+	padding-bottom: 0;
+}
+
+/* NAVBAR DROPDOWN COLOR */
+.dropdown-item.active, .dropdown-item:hover {
+    color: #fff;
+    background-color: #246e48;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    background-color: #246e48;
+}
+
+.col_no_padding {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+/*#rsis_carousel {
+	height: 4000;
+}*/
+
+.carousel-inner .carousel-item img {
+    top: 0;
+    left: 0;
+    height: 400;
+}
+
+#mission_vision {
+	height: 450px;
+	background-color: #246e48;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ccc' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ccc' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.card-deck {
+	padding-top: 10px;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+.card-deck .card {
+	border: none;
+	background-color: #246e48;
+}
+
+.card-deck .card-title {
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+.icon_home_layer2 {
+	height: 150px;
+	display: block;
+}
+
+.card-deck .card-body .card-text {
+	text-align: center;
+	color: white;
+}
+
+.card-footer {
+	border: none;
+	background-color: #246e48;
+}
+
+.card-footer .btn {
+	color: white;
+	border: 1px solid white;
+	padding-left: 40px;
+	padding-right: 40px; 
+}
+
+#partners_title {
+	text-align: center;
+}
+
+#partner_underline_top {
+	border-top: 1px solid;
+	border-color: black;
+	width: 250px;
+	margin-bottom: 2px;
+}
+
+#partner_underline_bottom {
+	border-top: 10px solid;
+	border-color: #246e48;
+	width: 120px;
+}
+
+#partners {
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+.partner_card {
+	background-color: #efefef;
+	height: 265px;
+	padding: 5px;
+	margin: 5px;
+}
+
+.partner_card p {
+	margin-right: 15px;
+}
+
+.partner_logo {
+	width: 100%;
+	object-fit: cover;
+}
+
+#partners_btn a {
+	padding-left: 20px;
+	padding-right: 20px; 
+}
+
+#gray_line {
+	height: 25px;
+	width: 100%;
+	background-color: #797878;
+}
+
+.footer {
+	height: 600px;
+	background-color: #2e2e2e;
+}
+
+.footer_content {
+	margin-left: 320px;
+	margin-right: 320px;
+	color: #9f9f9f;
+}
+
+.footer_content a {
+	color: #9f9f9f;
+}
+
+.transseal {
+	height: 150px;
+}
+
+.philippines {
+	height: 250px;
+}
+
+#privacy_notice {
+	height: 50px;
+	background-color: #191919;
+	padding: 15px;
+}
+
+#privacy_notice a {
+	color: white;
+}
+
+#privacy_notice .mx-auto {
+	display: inline-block;
+}
+
+#contact_us {
+	border-right: 1px solid;
+	color: white;
+	padding-right: 5px;
+}
+
+#sitemap {
+	border-right: 1px solid;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#privacy {
+	padding-left: 5px;
+}
+
+#cookies {
+	height: 60px;
+	background-color: #464646;
+	padding: 15px;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	z-index: 2147483647;
+	line-height: 21px;
+	bottom: 0px;
+	opacity: 1;
+}
+
+#cookies span {
+	color: white;
+}
+
+#cookies a {
+	color: #279d8b;
+	margin-right: 10px;
+}
+
+#cookies button {
+	background-color: #17765f;
+	border-color: #17765f;
+}
+
+/* PAGE HEADER CSS */
+#page_header {
+	background-color: #f1f5f8;
+	padding: 15px !important;
+	border-top: 5px solid;
+	border-bottom: 5px solid;
+	border-color: #e3ecec;
+}
+
+#page_header .breadcrumb {
+	background-color: #f1f5f8;
+	padding: 0;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+#page_header .breadcrumb a {
+	color: #246e48;
+	font-size: 18px;
+}
+
+#page_header .breadcrumb .active {
+	color: #246e48;
+	font-size: 18px;
+}
+
+#page_header h1 {
+	color: #246e48;
+}
+ 
+/* Style to change separator  */
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">>";
+}
+
+/* ABOUT US CSS */
+#about_us_content {
+	margin-left: 250px !important;
+	margin-right: 250px !important;
+}
+
+#about_us_content .col-3 {
+	border-right: 3px solid;
+	border-color: #0c817a;
+	padding-right: 0;
+}
+
+#about_us_content .col-3 .list-group-item {
+	border: none;
+	padding: 0;
+	font-size: 26px;
+}
+
+#about_us_content .col-3 .list-group-item a {
+	color: #246e48;
+}
+
+#about_us_content .col-3 .list-group-item.active {
+	background-color: white !important;
+	border-right: 8px solid;
+	border-color: #0c817a;
+	border-radius: 0;
+}
+
+#about_us_content .col-9 {
+	margin-bottom: 150px;
+}
+
+#about_us_content .col-9 h4 {
+	color: #246e48;
+}
+
+#about_us_content .col-9 table thead {
+	text-align: center !important;
+}
+
+#about_us_content .col-9 table thead tr th {
+	width: 25%;
+}
+
+/* CONTACT US CONTENT */
+#contact_us_content {
+	margin-left: 250px !important;
+	margin-right: 250px !important;
+}
+
+#contact_us_content .col-6 {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#contact_us_content .col-6 h3 {
+	color: #246e48;
+}
+
+#contact_us_content #map {
+	height: 300px;
+	margin-right: 100px;
+}
+
+/* LINKS CSS */
+#links_content {
+	margin-left: 250px !important;
+	margin-right: 250px !important;
+}
+
+#links_content li a {
+	color: #246e48 !important;
+}
+
+/* PRIVACY NOTICE CSS */
+#privacy_notice_content {
+	margin-left: 250px !important;
+	margin-right: 250px !important;
+}
+
+/* SITEMAP CSS */
+#sitemap_content {
+	margin-left: 250px !important;
+	margin-right: 250px !important;
+}
+
+/* HELPDESK CSS */
+#helpdesk_content iframe {
+	width: 100%;
+}
+
+/* PROFILE CSS */
+#profile_content {
+	margin-left: 250px !important;
+	margin-right: 250px !important;
+}
+
+#profile_content .col-3 {
+	border-right: 3px solid;
+	border-color: #0c817a;
+	padding-right: 0;
+}
+
+#profile_content .list-group-item {
+	border: none;
+	padding: 0;
+	font-size: 26px;
+}
+
+#profile_content .list-group-item a {
+	color: #246e48;
+}
+
+#profile_content .col-3 .list-group-item.active {
+	background-color: white !important;
+	border-right: 8px solid;
+	border-color: #0c817a;
+	border-radius: 0;
+}
+#profile_content #updatePicture{
+	cursor: pointer;
+}
+#profile_content .col-9 {
+	margin-bottom: 150px;
+}
+
+#profile_content .col-9 .system_card {
+	background-color: #0c817a;
+}
+
+#profile_content .col-9 .system_name {
+	color: white;
+}
+
+#profile_content .col-9 .fa-arrow-right {
+	color: white !important;
+}
+
+
+/* LOGIN CSS */
+#login_content {
+	margin-left: 250px !important;
+	margin-right: 250px !important;
+}
+
+/* REGISTER CSS */
+#register_content {
+	margin-left: 250px !important;
+	margin-right: 250px !important;
+}
+
+#register_content a {
+	color: #246e48;
+}
+
+/* DASHBOARD CSS */
+#dashboard_content {
+	margin-left: 250px !important;
+	margin-right: 250px !important;
+}
+
+#dashboard_content h3 {
+	color: #246e48;
+}
+
+/* LOCKSCREEN CSS (From AdminLTE3) */
+.lockscreen {
+  background: #e9ecef;
+}
+
+.lockscreen .lockscreen-name {
+  font-weight: 600;
+  text-align: center;
+}
+
+.lockscreen-logo {
+  font-size: 35px;
+  font-weight: 300;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.lockscreen-logo a {
+  color: #495057;
+}
+
+.lockscreen-wrapper {
+  margin: 0 auto;
+  margin-top: 10%;
+  max-width: 400px;
+}
+
+.lockscreen-item {
+  border-radius: 4px;
+  background: #ffffff;
+  margin: 10px auto 30px;
+  padding: 0;
+  position: relative;
+  width: 290px;
+}
+
+.lockscreen-image {
+  border-radius: 50%;
+  background: #ffffff;
+  left: -10px;
+  padding: 5px;
+  position: absolute;
+  top: -25px;
+  z-index: 10;
+}
+
+.lockscreen-image > img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+.lockscreen-credentials {
+  margin-left: 70px;
+}
+
+.lockscreen-credentials .form-control {
+  border: 0;
+}
+
+.lockscreen-credentials .btn {
+  background-color: #ffffff;
+  border: 0;
+  padding: 0 10px;
+}
+
+.lockscreen-footer {
+  margin-top: 10px;
+}
+
+.elevation-3 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23) !important;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+	#contact_header_contents {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.navbar {
+		margin-left: 50px;
+		margin-right: 50px;	
+	}
+
+	#mission_vision {
+		height: 480px;
+	}
+
+	.card-deck {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	#partners {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.partner_card {
+		height: 252px;
+	}
+
+	.partner_logo {
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.footer_content {
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+
+	/* PAGE HEADER */
+	#page_header .breadcrumb {
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+
+	/* ABOUT US CSS */
+	#about_us_content {
+		margin-left: 150px !important;
+		margin-right: 150px !important;
+	}
+
+	/* CONTACT US CSS */
+	#contact_us_content {
+		margin-left: 150px !important;
+		margin-right: 150px !important;
+	}
+
+	/* LINKS CSS */
+	#links_content {
+		margin-left: 150px !important;
+		margin-right: 150px !important;
+	}
+
+	/* PRIVACY NOTICE CSS */
+	#privacy_notice_content {
+		margin-left: 150px !important;
+		margin-right: 150px !important;
+	}
+
+	/* SITEMAP CSS */
+	#sitemap_content {
+		margin-left: 150px !important;
+		margin-right: 150px !important;
+	}
+
+	/* LOGIN CSS */
+	#login_content {
+		margin-left: 150px !important;
+		margin-right: 150px !important;
+	}
+
+	/* REGISTER CSS */
+	#register_content {
+		margin-left: 150px !important;
+		margin-right: 150px !important;
+	}
+
+	/* PROFILE CSS */
+	#profile_content {
+		margin-left: 150px !important;
+		margin-right: 150px !important;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+	#contact_header {
+		height: 150px;
+	}
+
+	#contact_header_contents {
+		margin-left: 0px;
+		margin-right: 0px;
+		display: flex
+		flex-direction: column;
+	}
+
+	.contact_header_item {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: 0px; 
+		text-align: center;
+	}
+
+	.item_right {
+		margin-right: 3px;
+	}
+
+	#contact_header_contents .float-right {
+		float: none !important;
+		display: inline-flex;
+		margin-left: 40%;
+		margin-right: 40%;
+	}
+
+	.contact_icon_background {
+		margin-top: 0;
+	}
+
+	.navbar {
+		margin-left: 50px;
+		margin-right: 50px;	
+	}
+
+	.navbar_logo {
+		height: 100px;
+	}
+
+	#mission_vision {
+		height: 1050px;
+	}
+
+	.card-deck {
+		padding-top: 10px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.card-deck .card-title {
+		text-align: center;
+		font-size: 27px;
+		color: white;
+	}
+
+	.icon_home_layer2 {
+		height: 120px;
+		display: block;
+	}
+
+	.card-deck .card-body .card-text {
+		text-align: center;
+		color: white;
+		font-size: 16px;
+	}
+
+	.card-footer {
+		text-align: center;
+	}
+
+	.card-deck .card {
+	  display: block;
+	  flex-basis: 50%; /* change this value for each breakpoint*/
+	}
+
+	#partners {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.partner_card {
+		height: 214px;
+	}
+	
+	.partner_card h2 {
+		font-size: 27px;
+	}
+
+	.partner_card p {
+		margin-right: 15px;
+		font-size: 14px;
+	}
+
+	.footer {
+		height: 1150px;
+		background-color: #2e2e2e;
+	}
+
+	.footer_content {
+		margin-left: 50px;
+		margin-right: 50px;
+		color: #9f9f9f;
+	}
+
+	.footer_content a {
+		color: #9f9f9f;
+	}
+
+	.transseal {
+		height: 150px;
+	}
+
+	.philippines {
+		height: 250px;
+	}
+
+	/* PAGE HEADER */
+	#page_header .breadcrumb {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	/* ABOUT US CSS */
+	#about_us_content {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+
+	#about_us_content .col-3 {
+		margin-bottom: 50px;
+	}
+
+	/* CONTACT US CSS */
+	#contact_us_content {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+
+	#contact_us_content #map {
+		height: 300px;
+		margin-right: 0px;
+	}
+
+	/* LINKS CSS */
+	#links_content {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+
+	/* PRIVACY NOTICE CSS */
+	#privacy_notice_content {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+
+	/* SITEMAP CSS */
+	#sitemap_content {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+
+	/* LOGIN CSS */
+	#login_content {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+
+	/* REGISTER CSS */
+	#register_content {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+
+	/* PROFILE CSS */
+	#profile_content {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+
+	#profile_content .col-3 {
+		margin-bottom: 50px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#contact_header_contents {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.navbar {
+		margin-left: 50px;
+		margin-right: 50px;	
+	}
+
+	#mission_vision {
+		height: 530px;
+	}
+
+	.card-deck {
+		padding-top: 10px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	#partners {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.partner_card {
+		height: 330px;
+	}
+
+	.partner_card p {
+		margin-right: 15px;
+	}
+
+	.footer {
+		height: 680px;
+		background-color: #2e2e2e;
+	}
+
+	.footer_content {
+		margin-left: 50px;
+		margin-right: 50px;
+		color: #9f9f9f;
+	}
+
+	.footer_content a {
+		color: #9f9f9f;
+	}
+
+	.transseal {
+		height: 150px;
+	}
+
+	.philippines {
+		height: 250px;
+	}
+
+	/* PAGE HEADER */
+	#page_header .breadcrumb {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	/* ABOUT US CSS */
+	#about_us_content {
+		margin-left: 50px !important;
+		margin-right: 50px !important;
+	}
+
+	/* CONTACT US CSS */
+	#contact_us_content {
+		margin-left: 50px !important;
+		margin-right: 50px !important;
+	}
+
+	#contact_us_content #map {
+		height: 300px;
+		margin-right: 0px;
+	}
+
+	/* LINKS CSS */
+	#links_content {
+		margin-left: 50px !important;
+		margin-right: 50px !important;
+	}
+
+	/* PRIVACY NOTICE CSS */
+	#privacy_notice_content {
+		margin-left: 50px !important;
+		margin-right: 50px !important;
+	}
+
+	/* SITEMAP CSS */
+	#sitemap_content {
+		margin-left: 50px !important;
+		margin-right: 50px !important;
+	}
+
+	/* LOGIN CSS */
+	#login_content {
+		margin-left: 50px !important;
+		margin-right: 50px !important;
+	}
+
+	/* REGISTER CSS */
+	#register_content {
+		margin-left: 50px !important;
+		margin-right: 50px !important;
+	}
+
+	/* PROFILE CSS */
+	#profile_content {
+		margin-left: 50px !important;
+		margin-right: 50px !important;
+	}
+}

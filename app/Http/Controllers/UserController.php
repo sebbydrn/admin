@@ -65,7 +65,7 @@ class UserController extends Controller
         // $roles = $role->getRoles2();
 
         // Countries
-        $countries = $this->countries();
+        // $countries = $this->countries();
 
         // Provinces
         $provinces = $this->provinces();
@@ -76,7 +76,7 @@ class UserController extends Controller
         return view('users.create')
         ->with(compact('stations'))
         // ->with(compact('roles'))
-        ->with(compact('countries'))
+        // ->with(compact('countries'))
         ->with(compact('provinces'))
         ->with(compact('affiliations'));
     }
@@ -299,7 +299,7 @@ class UserController extends Controller
         $stations = $this->stations();
 
         // Countries
-        $countries = $this->countries();
+        // $countries = $this->countries();
 
         // Provinces
         $provinces = $this->provinces();
@@ -316,7 +316,7 @@ class UserController extends Controller
         return view('users.edit')
         ->with(compact('user_data'))
         ->with(compact('stations'))
-        ->with(compact('countries'))
+        // ->with(compact('countries'))
         ->with(compact('provinces'))
         ->with(compact('municipalities'))
         ->with(compact('affiliations'))
